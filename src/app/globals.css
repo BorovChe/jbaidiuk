@@ -1,0 +1,30 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --main-dark-cl: #121212;
+  --second-dark-cl: #000;
+
+  --main-white-txt-cl: #f7f7f7;
+  --second-white-txt-cl: #d8d7d7;
+
+  --main-gray-bg-cl: rgb(37, 37, 37);
+
+  --header-border-cl-20: rgba(247, 247, 247, 0.2);
+  --footer-border-cl-30: rgba(18, 18, 18, 0.3);
+
+  --main-transition: 300ms;
+}
+
+body {
+  position: relative;
+
+  font-size: 14px;
+  color: var(--second-dark-cl);
+  background: var(--main-white-txt-cl);
+}
+
+.blur-filter {
+  backdrop-filter: blur(5px);
+}
