@@ -1,18 +1,31 @@
+import AboutImagesList from "@/components/About/AboutImageList";
+import Container from "@/components/Container";
+
 const About = () => {
   return (
-    <div>
-      Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi, est.
-      Eligendi aut consequatur nobis animi architecto cumque nulla nesciunt
-      molestiae optio sit alias, illum natus ullam aliquid reiciendis ex omnis
-      dignissimos sunt itaque! Unde quibusdam veritatis tempore delectus fugiat.
-      Sed ex voluptatum eveniet pariatur dolorem nostrum temporibus explicabo
-      laudantium, libero, necessitatibus in quia voluptatibus incidunt tempora
-      porro facilis at odit amet placeat. Similique perspiciatis inventore
-      consequatur iusto blanditiis facilis consequuntur earum quos magni, quae
-      possimus dolor reiciendis libero. Tenetur ullam iure quia magni corrupti
-      rerum quisquam dignissimos quos, repudiandae mollitia cum architecto rem
-      tempora, veniam esse at? Vel, delectus voluptates.
-    </div>
+    <section className="pt-20	">
+      <Container>
+        <h2 className="text-2xl mb-10	tracking-widest">Хто я?</h2>
+        <p className="text-[22px] mb-6">
+          Привіт! Мене звати Євген Байдюк, і я професійний барбер з багаторічним
+          досвідом у цій галузі. Моя робота – це не просто стрижка та догляд за
+          волоссям, а справжнє мистецтво створення унікальних образів для
+          кожного клієнта.
+        </p>
+        <p className="mb-6">
+          Ми працюємо за стандартами «старої школи», спираючись на класичні
+          чоловічі стрижки. Вони зручні, практичні і підходять для повсякденного
+          укладання.
+        </p>
+        <p className="mb-6">
+          Для нас гоління - це не проста повсякденна процедура. Барбери постійно
+          відпрацьовують його як в робочому процесі, так і на моделях, щоб
+          підвищувати свою майстерність. А вартість цієї послуги в T.A.B. -
+          найнижча в місті, щоб кожен міг спробувати і оцінити її.
+        </p>
+        <AboutImagesList />
+      </Container>
+    </section>
   );
 };
 

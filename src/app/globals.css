@@ -8,6 +8,7 @@
 
   --main-white-txt-cl: #f7f7f7;
   --second-white-txt-cl: #d8d7d7;
+  --accent-cl: #115c48;
 
   --main-gray-bg-cl: rgb(37, 37, 37);
 
@@ -20,7 +21,7 @@
 body {
   position: relative;
 
-  font-size: 14px;
+  font-size: 16px;
   color: var(--second-dark-cl);
   background: var(--main-white-txt-cl);
 }
