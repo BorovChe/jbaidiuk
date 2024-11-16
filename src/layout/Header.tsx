@@ -1,14 +1,14 @@
 import Image from "next/image";
 
 import NavList from "@/components/NavList";
-import Logo from "@/components/Logo";
+import Logo from "@/components/UI/Logo";
 
-import { burgerMenu } from "../../public/icons/index";
+import { burgerMenu } from "../../public/icons/Header/index";
 
 const Header = () => {
   return (
     <header
-      className="blur-filter fixed w-full flex items-center min-h-[64px] px-4
+      className="blur-filter fixed w-full z-[999] flex items-center min-h-[64px] px-4
      bg-[#0c0c0cbf] shadow-[0_4px_12px_#191c2666] border-[--header-border-cl-20] border-b-[0.5px] border-solid "
     >
       <div className="flex justify-between gap-8">

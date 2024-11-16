@@ -1,5 +1,5 @@
-import BookNowLink from "@/components/BookNowLink";
-import Container from "@/components/Container";
+import BookNowLink from "@/components/UI/BookNowLink";
+import Container from "@/components/UI/Container";
 
 const Hero = () => {
   return (
@@ -11,15 +11,16 @@ const Hero = () => {
       className="flex items-center text-[--main-white-txt-cl] w-full h-[100vh]	bg-cover bg-no-repeat bg-center"
     >
       <Container>
-        <h1 className="mb-1 uppercase text-[40px] 	 font-semibold	 	tracking-widest">
+        <h1 className="uppercase text-[42px] font-semibold	tracking-widest">
           jbaidiuk
         </h1>
         <p className="mb-12 text-lg">
           Only quality haircut and hot towel shave
         </p>
         <p className="max-w-[400px] mb-12 text-lg ">
-          Наша команда працює за американськими стандартами, які були
-          сертифіковані у 1940-1960 роках
+          Я дотримуюся американських стандартів, які були впроваджені ще в
+          1940–1960-х роках. Ці підходи перевірені часом і гарантують якість у
+          кожній деталі.
         </p>
         <BookNowLink />
       </Container>

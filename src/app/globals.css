@@ -12,6 +12,8 @@
 
   --main-gray-bg-cl: rgb(37, 37, 37);
 
+  --arrow-fray-cl: rgba(255, 255, 255, 0.4);
+
   --header-border-cl-20: rgba(247, 247, 247, 0.2);
   --footer-border-cl-30: rgba(18, 18, 18, 0.3);
 
@@ -29,4 +31,8 @@ body {
 .blur-filter {
   backdrop-filter: blur(5px);
   -webkit-backdrop-filter: blur(5px);
+}
+
+.transition-max-height {
+  transition: max-height 0.5s ease-in-out;
 }

@@ -1,7 +1,7 @@
-import BookNowLink from "@/components/BookNowLink";
-import Container from "@/components/Container";
-import Section from "@/components/Section";
-import SectionTitle from "@/components/SectionTitle";
+import BookNowLink from "@/components/UI/BookNowLink";
+import Container from "@/components/UI/Container";
+import Section from "@/components/UI/Section";
+import SectionTitle from "@/components/UI/SectionTitle";
 import ServiceList from "@/components/Service/ServiceList";
 
 const Services = () => {

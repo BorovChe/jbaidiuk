@@ -1,7 +1,7 @@
-import Container from "@/components/Container";
+import Container from "@/components/UI/Container";
 import MyLifeImageList from "@/components/MyLife/MyLifeImageList";
-import Section from "@/components/Section";
-import SectionTitle from "@/components/SectionTitle";
+import Section from "@/components/UI/Section";
+import SectionTitle from "@/components/UI/SectionTitle";
 
 const MyLife = () => {
   return (

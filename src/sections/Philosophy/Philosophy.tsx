@@ -1,10 +1,10 @@
 import Image from "next/image";
 
-import Container from "@/components/Container";
+import Container from "@/components/UI/Container";
 
 import philosophy from "../../../public/images/Philosophy/philosophy.jpg";
-import SectionTitle from "@/components/SectionTitle";
-import Section from "@/components/Section";
+import SectionTitle from "@/components/UI/SectionTitle";
+import Section from "@/components/UI/Section";
 
 const Philosophy = () => {
   return (

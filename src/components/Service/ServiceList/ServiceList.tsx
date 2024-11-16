@@ -1,11 +1,25 @@
-import services from "@/data/services.json";
-import ServiceItem from "../ServiceItem";
+"use client";
+
+import services from "@/data/services";
+import ServiceAccordion from "../ServiceAccordion";
+import { useState } from "react";
 
 const ServiceList = () => {
+  const [openId, setOpenId] = useState<number | null>(null);
+
+  const handleToggle = (id: number) => {
+    setOpenId(openId === id ? null : id);
+  };
+
   return (
     <ul className="mb-10">
-      {services.map(({ id, title, duration, price }) => (
-        <ServiceItem key={id} title={title} duration={duration} price={price} />
+      {services.map((item) => (
+        <ServiceAccordion
+          key={item.id}
+          item={item}
+          isOpen={openId === item.id}
+          onToggle={() => handleToggle(item.id)}
+        />
       ))}
     </ul>
   );

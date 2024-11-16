@@ -1,14 +1,19 @@
-import Container from "@/components/Container";
-import Section from "@/components/Section";
-import SectionTitle from "@/components/SectionTitle";
+import BookNowLink from "@/components/UI/BookNowLink";
+import ContactsList from "@/components/Contacts/ContactList";
+import Container from "@/components/UI/Container";
+import SectionTitle from "@/components/UI/SectionTitle";
 
 const Contacts = () => {
   return (
-    <Section>
+    <section className="py-20">
       <Container>
         <SectionTitle>Контакти</SectionTitle>
+        <ContactsList />
+        <div className="w-[160px] mx-auto">
+          <BookNowLink />
+        </div>
       </Container>
-    </Section>
+    </section>
   );
 };
 

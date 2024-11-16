@@ -1,3 +1,4 @@
+import Footer from "@/layout/Footer";
 import Header from "@/layout/Header";
 import About from "@/sections/About";
 import Contacts from "@/sections/Contacts";
@@ -16,6 +17,7 @@ export default function Home() {
       <Philosophy />
       <MyLife />
       <Contacts />
+      <Footer />
     </>
   );
 }
