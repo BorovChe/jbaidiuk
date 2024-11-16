@@ -1,21 +1,20 @@
+import BookNowLink from "@/components/BookNowLink";
 import Container from "@/components/Container";
+import Section from "@/components/Section";
+import SectionTitle from "@/components/SectionTitle";
 import ServiceList from "@/components/Service/ServiceList";
-import Link from "next/link";
 
 const Services = () => {
   return (
-    <section className="pt-20">
+    <Section>
       <Container>
-        <h2 className="text-2xl mb-10	tracking-widest">Мої послуги</h2>
+        <SectionTitle>Мої послуги</SectionTitle>
         <ServiceList />
-        <Link
-          className="flex items-center justify-center w-40 mx-auto		py-3 uppercase tracking-wider	text-sm	 font-semibold rounded-sm text-[--main-white-txt-cl]	bg-[--accent-cl]"
-          href={"/"}
-        >
-          Записатися
-        </Link>
+        <div className="w-[160px] mx-auto">
+          <BookNowLink />
+        </div>
       </Container>
-    </section>
+    </Section>
   );
 };
 

@@ -1,5 +1,6 @@
 import Header from "@/layout/Header";
 import About from "@/sections/About";
+import Contacts from "@/sections/Contacts";
 import Hero from "@/sections/Hero";
 import MyLife from "@/sections/MyLife";
 import Philosophy from "@/sections/Philosophy";
@@ -14,6 +15,7 @@ export default function Home() {
       <Services />
       <Philosophy />
       <MyLife />
+      <Contacts />
     </>
   );
 }

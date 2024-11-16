@@ -1,9 +1,8 @@
-import { FC } from "react";
 import Image from "next/image";
 
 import { IAboutImageItemProps } from "./AboutImageItem.types";
 
-const AboutImageItem: FC<IAboutImageItemProps> = ({ path }) => {
+const AboutImageItem = ({ path }: IAboutImageItemProps) => {
   return (
     <li className=" w-[47.5%] max-h-[50%]">
       <Image

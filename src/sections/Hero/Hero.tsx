@@ -1,5 +1,5 @@
+import BookNowLink from "@/components/BookNowLink";
 import Container from "@/components/Container";
-import Link from "next/link";
 
 const Hero = () => {
   return (
@@ -21,12 +21,7 @@ const Hero = () => {
           Наша команда працює за американськими стандартами, які були
           сертифіковані у 1940-1960 роках
         </p>
-        <Link
-          className="flex items-center justify-center w-40	py-3 uppercase tracking-wider	text-sm	 font-medium rounded-sm	bg-[--accent-cl]"
-          href={"/"}
-        >
-          Записатися
-        </Link>
+        <BookNowLink />
       </Container>
     </section>
   );

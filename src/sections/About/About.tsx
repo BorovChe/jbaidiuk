@@ -1,11 +1,13 @@
 import AboutImagesList from "@/components/About/AboutImageList";
 import Container from "@/components/Container";
+import Section from "@/components/Section";
+import SectionTitle from "@/components/SectionTitle";
 
 const About = () => {
   return (
-    <section className="pt-20	">
+    <Section>
       <Container>
-        <h2 className="text-2xl mb-10	tracking-widest">Хто я?</h2>
+        <SectionTitle>Хто я?</SectionTitle>
         <p className="text-[22px] mb-6">
           Привіт! Мене звати Євген Байдюк, і я професійний барбер з багаторічним
           досвідом у цій галузі. Моя робота – це не просто стрижка та догляд за
@@ -25,7 +27,7 @@ const About = () => {
         </p>
         <AboutImagesList />
       </Container>
-    </section>
+    </Section>
   );
 };
 

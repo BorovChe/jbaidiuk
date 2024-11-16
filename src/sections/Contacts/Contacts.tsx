@@ -1,17 +1,15 @@
 import Container from "@/components/Container";
-import MyLifeImageList from "@/components/MyLife/MyLifeImageList";
 import Section from "@/components/Section";
 import SectionTitle from "@/components/SectionTitle";
 
-const MyLife = () => {
+const Contacts = () => {
   return (
     <Section>
       <Container>
-        <SectionTitle>Чим я живу</SectionTitle>
-        <MyLifeImageList />
+        <SectionTitle>Контакти</SectionTitle>
       </Container>
     </Section>
   );
 };
 
-export default MyLife;
+export default Contacts;

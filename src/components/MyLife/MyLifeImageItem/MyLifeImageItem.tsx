@@ -1,8 +1,8 @@
-import { FC } from "react";
-import { IMyLifeImageItemProps } from "./MyLifeImageItem.types";
 import Image from "next/image";
 
-const MyLifeImageItem: FC<IMyLifeImageItemProps> = ({ path }) => {
+import { IMyLifeImageItemProps } from "./MyLifeImageItem.types";
+
+const MyLifeImageItem = ({ path }: IMyLifeImageItemProps) => {
   return (
     <li className=" w-[47.5%] max-h-[50%]">
       <Image

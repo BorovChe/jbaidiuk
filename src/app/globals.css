@@ -28,4 +28,5 @@ body {
 
 .blur-filter {
   backdrop-filter: blur(5px);
+  -webkit-backdrop-filter: blur(5px);
 }

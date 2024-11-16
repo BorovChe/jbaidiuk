@@ -3,12 +3,14 @@ import Image from "next/image";
 import Container from "@/components/Container";
 
 import philosophy from "../../../public/images/Philosophy/philosophy.jpg";
+import SectionTitle from "@/components/SectionTitle";
+import Section from "@/components/Section";
 
 const Philosophy = () => {
   return (
-    <section className="pt-20">
+    <Section>
       <Container>
-        <h2 className="text-2xl mb-10	tracking-widest">Моя філософія</h2>
+        <SectionTitle>Моя філософія</SectionTitle>
         <Image className="mb-10" src={philosophy} alt="Phylosophy" />
         <strong className="block mb-10 text-2xl	font-semibold	">
           Я – професійний барбер, який відданий традиціям «старої школи». Моє
@@ -23,7 +25,7 @@ const Philosophy = () => {
           створити неповторний образ
         </p>
       </Container>
-    </section>
+    </Section>
   );
 };
 

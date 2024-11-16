@@ -1,8 +1,6 @@
-import { FC } from "react";
-
 import { IServiceItemProps } from "./Service.types";
 
-const ServiceItem: FC<IServiceItemProps> = ({ title, duration, price }) => {
+const ServiceItem = ({ title, duration, price }: IServiceItemProps) => {
   return (
     <li className="flex flex-col  max-w-[300px] mx-auto	 py-2 border-solid	 border-[#b3b3b3] border-t-[1px] ">
       <h3 className="text-[28px] font-semibold	">{title}</h3>
