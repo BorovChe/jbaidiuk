@@ -8,7 +8,7 @@ const Hero = () => {
         backgroundImage:
           "linear-gradient(rgba(25, 28, 38, 0.5), rgba(25, 28, 38, 0.5)), url('/images/Hero/hero.jpg')",
       }}
-      className="flex items-center text-[--main-white-txt-cl] w-full h-[932px]  	bg-cover bg-no-repeat bg-center"
+      className="flex items-center text-[--main-white-txt-cl] w-full h-[820px]  	bg-cover bg-no-repeat bg-center"
     >
       <Container>
         <h1 className="uppercase text-[42px] font-semibold	tracking-widest">
