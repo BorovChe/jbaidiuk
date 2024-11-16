@@ -5,7 +5,7 @@ import SectionTitle from "@/components/UI/SectionTitle";
 
 const Contacts = () => {
   return (
-    <section className="py-20">
+    <section id="contacts" className="py-20">
       <Container>
         <SectionTitle>Контакти</SectionTitle>
         <ContactsList />

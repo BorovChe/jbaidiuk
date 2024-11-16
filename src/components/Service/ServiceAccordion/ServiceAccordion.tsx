@@ -26,14 +26,14 @@ const ServiceAccordion = ({
   }, [isOpen]);
 
   return (
-    <li className="relative flex flex-col  max-w-[300px] mx-auto	 py-5 border-solid	 border-[#b3b3b3] border-t-[1px] ">
-      <Image
-        className="absolute top-[62px] right-[10px]"
-        width={14}
-        src={isOpen ? triangleUp : triangleDown}
-        alt="arrow"
-      />
-      <div onClick={onToggle}>
+    <li className=" flex flex-col  max-w-[300px] mx-auto	 py-5 border-solid	 border-[#b3b3b3] border-t-[1px] ">
+      <div className="relative" onClick={onToggle}>
+        <Image
+          className="absolute top-[42px] right-[10px]"
+          width={14}
+          src={isOpen ? triangleUp : triangleDown}
+          alt="arrow"
+        />
         <h3 className=" mb-2 text-[28px] font-semibold leading-none		">
           {title}
         </h3>

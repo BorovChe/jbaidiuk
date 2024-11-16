@@ -1,3 +1,4 @@
+import ScrollToTop from "@/components/ScrollToTop";
 import Footer from "@/layout/Footer";
 import Header from "@/layout/Header";
 import About from "@/sections/About";
@@ -18,6 +19,7 @@ export default function Home() {
       <MyLife />
       <Contacts />
       <Footer />
+      <ScrollToTop />
     </>
   );
 }

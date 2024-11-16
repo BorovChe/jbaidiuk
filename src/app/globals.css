@@ -20,6 +20,10 @@
   --main-transition: 300ms;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 body {
   position: relative;
 

@@ -5,7 +5,7 @@ import SectionTitle from "@/components/UI/SectionTitle";
 
 const About = () => {
   return (
-    <Section>
+    <Section id="about">
       <Container>
         <SectionTitle>Хто я?</SectionTitle>
         <p className="text-[22px] mb-6">

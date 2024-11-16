@@ -6,7 +6,7 @@ import ServiceList from "@/components/Service/ServiceList";
 
 const Services = () => {
   return (
-    <Section>
+    <Section id="services">
       <Container>
         <SectionTitle>Мої послуги</SectionTitle>
         <ServiceList />
