@@ -5,12 +5,12 @@ import { INavLinst, INavListProps } from "./NavList.types";
 
 const NavList = ({ textColor }: INavListProps) => {
   return (
-    <nav>
-      <ul className="hidden  xl:flex gap-8 pr-[200px] items-center">
+    <nav className="hidden lg:block">
+      <ul className="flex gap-8 pr-[200px] items-center">
         {navList.map(({ id, title, sectionId }: INavLinst) => (
           <li key={id}>
             <Link
-              className={`text-[${textColor}] leading-tight tracking-widest	 uppercase`}
+              className={`text-[${textColor}] leading-tight tracking-widest	 uppercase lg:text-[14px]`}
               href={`#${sectionId}`}
             >
               {title}

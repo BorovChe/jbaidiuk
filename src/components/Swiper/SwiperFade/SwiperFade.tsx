@@ -23,7 +23,7 @@ const SwiperFade = ({ alt, imagesPath }: ISwiperFadeProps) => {
         prevEl: ".swiper-button-prev",
         nextEl: ".swiper-button-next",
       }}
-      className="relative w-[300px] h-[214px]"
+      className="relative w-[320px] h-[214px] sm:w-[460px] sm:h-[300px] lg:w-[540px] lg:h-[380px]"
     >
       {imagesPath.map((item, i) => (
         <SwiperSlide key={i}>
