@@ -17,18 +17,19 @@
   --header-border-cl-20: rgba(247, 247, 247, 0.2);
   --footer-border-cl-30: rgba(18, 18, 18, 0.3);
 
-  --app-height: 100lvh;
+  --app-height: 100%;
 
   --main-transition: 300ms;
 }
 
 html {
   scroll-behavior: smooth;
+  height: 100%;
 }
 
 body {
   position: relative;
-
+  height: 100%;
   font-size: 16px;
   color: var(--second-dark-cl);
   background: var(--main-white-txt-cl);
@@ -45,7 +46,6 @@ body {
 
 .hero {
   height: var(--app-height);
-  min-height: -webkit-fill-available;
   background: linear-gradient(rgba(25, 28, 38, 0.5), rgba(25, 28, 38, 0.5)),
     url("/images/Hero/hero.jpg");
   background-position: center;
