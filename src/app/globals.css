@@ -17,19 +17,18 @@
   --header-border-cl-20: rgba(247, 247, 247, 0.2);
   --footer-border-cl-30: rgba(18, 18, 18, 0.3);
 
-  --app-height: 100%;
+  --app-height: 100vh;
+  --vh: 1vh;
 
   --main-transition: 300ms;
 }
 
 html {
   scroll-behavior: smooth;
-  height: 100%;
 }
 
 body {
   position: relative;
-  height: 100%;
   font-size: 16px;
   color: var(--second-dark-cl);
   background: var(--main-white-txt-cl);
@@ -45,7 +44,7 @@ body {
 }
 
 .hero {
-  height: var(--app-height);
+  height: calc(var(--vh, 1vh) * 100);
   background: linear-gradient(rgba(25, 28, 38, 0.5), rgba(25, 28, 38, 0.5)),
     url("/images/Hero/hero.jpg");
   background-position: center;
