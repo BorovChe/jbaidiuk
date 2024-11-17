@@ -17,7 +17,7 @@
   --header-border-cl-20: rgba(247, 247, 247, 0.2);
   --footer-border-cl-30: rgba(18, 18, 18, 0.3);
 
-  --app-height: 100vh;
+  --app-height: 100svh;
 
   --main-transition: 300ms;
 }
