@@ -45,6 +45,7 @@ body {
 
 .hero {
   height: var(--app-height);
+  min-height: -webkit-fill-available;
   background: linear-gradient(rgba(25, 28, 38, 0.5), rgba(25, 28, 38, 0.5)),
     url("/images/Hero/hero.jpg");
   background-position: center;
