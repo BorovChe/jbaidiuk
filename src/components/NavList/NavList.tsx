@@ -8,9 +8,12 @@ const NavList = ({ textColor }: INavListProps) => {
     <nav className="hidden lg:block">
       <ul className="flex gap-8 pr-[200px] items-center">
         {navList.map(({ id, title, sectionId }: INavLinst) => (
-          <li key={id}>
+          <li
+            key={id}
+            className="hover:scale-[1.1] transition-transform duration-[--main-transition]"
+          >
             <Link
-              className={`text-[${textColor}] leading-tight tracking-widest	 uppercase lg:text-[14px]`}
+              className={`text-[${textColor}] leading-tight tracking-widest	 uppercase lg:text-[14px] `}
               href={`#${sectionId}`}
             >
               {title}

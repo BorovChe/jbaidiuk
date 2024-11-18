@@ -1,5 +1,10 @@
 import "./globals.css";
 import { Raleway } from "next/font/google";
+import type { Metadata } from "next";
+
+export const metadata: Metadata = {
+  title: "JBaidiuk",
+};
 
 const raleway = Raleway({
   subsets: ["latin"],

@@ -30,9 +30,11 @@ const ScrollToTop = () => {
       <button
         onClick={handleScrollToTop}
         className={`fixed bottom-10 right-[30px] flex items-center justify-center w-[52px] h-[52px] bg-[--accent-cl] rounded-full shadow-lg transition duration-500
-          ${isVisible ? "opacity-100" : "opacity-0 pointer-events-none"}`}
+          ${
+            isVisible ? "opacity-100" : "opacity-0 pointer-events-none"
+          } lg:w-[68px] lg:h-[68px] lg:right-[50px] hover:bg-[--accent-hover-cl] hover:duration-150 hover:ease-in`}
       >
-        <Image src={arrowTop} width={24} alt="Arrow to top" />
+        <Image className="w-6 lg:w-7" src={arrowTop} alt="Arrow to top" />
       </button>
     </>
   );

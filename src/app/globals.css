@@ -9,6 +9,7 @@
   --main-white-txt-cl: #f7f7f7;
   --second-white-txt-cl: #d8d7d7;
   --accent-cl: #115c48;
+  --accent-hover-cl: #0a4938;
 
   --main-gray-bg-cl: rgb(37, 37, 37);
 
@@ -27,7 +28,28 @@ html {
   scroll-behavior: smooth;
 }
 
+::-webkit-scrollbar {
+  width: 12px;
+}
+
+::-webkit-scrollbar-track {
+  background: #1b1b1b;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: #555;
+  border-radius: 5px;
+  border: 2px solid #1b1b1b;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background-color: #888;
+}
+
 body {
+  scrollbar-width: thin;
+  scrollbar-color: #888 #1b1b1b;
+
   position: relative;
   font-size: 16px;
   color: var(--second-dark-cl);
@@ -54,10 +76,10 @@ body {
 @media (min-width: 1024px) {
   .hero {
     background: linear-gradient(rgba(25, 28, 38, 0.5), rgba(25, 28, 38, 0.5)),
-      url("/images/Hero/hero.jpg");
+      url("/images/Hero/bg-desk2.jpg");
 
     background-size: cover;
-    background-position: center;
+    background-position: 50% 25%;
     background-repeat: no-repeat;
   }
 }
