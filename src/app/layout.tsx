@@ -19,7 +19,7 @@ export const metadata: Metadata = {
     "стиль",
   ],
   openGraph: {
-    title: "JBaidiuk | Only Quality Haircut",
+    title: "Only Quality Haircut",
     description: "Професійний барбер. Якість. Традиція. Стиль.",
     url: "https://jbaidiuk.vercel.app",
     siteName: "JBaidiuk",
