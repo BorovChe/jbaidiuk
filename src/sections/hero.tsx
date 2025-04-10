@@ -1,7 +1,23 @@
+"use client";
+
+import { useEffect } from "react";
+
 import BookNowLink from "@/components/UI/book-now-link";
 import Container from "@/components/UI/container";
 
 const Hero = () => {
+  useEffect(() => {
+    const setVh = () => {
+      document.documentElement.style.setProperty(
+        "--vh",
+        `${window.innerHeight * 0.01}px`
+      );
+    };
+
+    setVh();
+    return () => window.removeEventListener("resize", setVh);
+  }, []);
+
   return (
     <section
       id="hero"
