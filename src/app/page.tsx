@@ -1,24 +1,20 @@
-import ScrollToTop from "@/components/ScrollToTop";
-import Footer from "@/layout/Footer";
-import Header from "@/layout/Header";
-import About from "@/sections/About";
-import Contacts from "@/sections/Contacts";
-import Hero from "@/sections/Hero";
-import MyLife from "@/sections/MyLife";
-import Philosophy from "@/sections/Philosophy";
-import Services from "@/sections/Services";
+import ScrollToTop from "@/components/scroll-to-top";
+import About from "@/sections/about";
+import Contacts from "@/sections/contacts";
+import Hero from "@/sections/hero";
+import MyLife from "@/sections/my-life";
+import Philosophy from "@/sections/philosophy";
+import Services from "@/sections/services";
 
 export default function Home() {
   return (
     <>
-      <Header />
       <Hero />
       <About />
       <Services />
       <Philosophy />
       <MyLife />
       <Contacts />
-      <Footer />
       <ScrollToTop />
     </>
   );

@@ -1,0 +1,60 @@
+[
+  {
+    "id": 1,
+    "title": "Чоловіча стрижка",
+    "duration": "1 година",
+    "price": 800,
+    "alt": "Haircit Image",
+    "images": [
+      "haircut/haircut1.jpg",
+      "haircut/haircut2.jpg",
+      "haircut/haircut3.jpg",
+      "haircut/haircut4.jpg",
+      "haircut/haircut5.jpg",
+      "haircut/haircut6.jpg",
+      "haircut/haircut7.jpg"
+    ]
+  },
+  {
+    "id": 2,
+    "title": "Стрижка бороди",
+    "duration": "30 хвилин",
+    "price": 450,
+    "alt": "Beard Image",
+    "images": [
+      "beard-trim/beard1.jpg",
+      "beard-trim/beard2.jpg",
+      "beard-trim/beard3.jpg",
+      "beard-trim/beard4.jpg",
+      "beard-trim/beard5.jpg"
+    ]
+  },
+  {
+    "id": 3,
+    "title": "Гоління",
+    "duration": " 30 хвилин",
+    "price": 250,
+    "alt": "Shaving Image",
+    "images": [
+      "beard-trim/beard5.jpg",
+      "beard-trim/beard2.jpg",
+      "beard-trim/beard3.jpg",
+      "beard-trim/beard4.jpg",
+      "beard-trim/beard1.jpg"
+    ]
+  },
+  {
+    "id": 4,
+    "title": "Стрижка+борода",
+    "duration": "1 година 30 хвилин",
+    "price": 1100,
+    "alt": "Haircut + beard Image",
+    "images": [
+      "beard-trim/beard2.jpg",
+      "beard-trim/beard1.jpg",
+      "beard-trim/beard5.jpg",
+      "beard-trim/beard4.jpg",
+      "beard-trim/beard3.jpg"
+    ]
+  }
+]
