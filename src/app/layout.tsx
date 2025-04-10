@@ -18,21 +18,21 @@ export const metadata: Metadata = {
     "класичні стрижки",
     "стиль",
   ],
-  openGraph: {
-    title: "Only Quality Haircut",
-    description: "Професійний барбер. Якість. Традиція. Стиль.",
-    url: "https://jbaidiuk.vercel.app",
-    siteName: "JBaidiuk",
-    type: "website",
-    images: [
-      {
-        url: "/images/hero/hero.jpg",
-        width: 1200,
-        height: 630,
-        alt: "JBaidiuk Barber",
-      },
-    ],
-  },
+  // openGraph: {
+  //   title: "Only Quality Haircut",
+  //   description: "Професійний барбер. Якість. Традиція. Стиль.",
+  //   url: "https://jbaidiuk.vercel.app",
+  //   siteName: "JBaidiuk",
+  //   type: "website",
+  //   images: [
+  //     {
+  //       url: "/images/hero/hero.jpg",
+  //       width: 1200,
+  //       height: 630,
+  //       alt: "JBaidiuk Barber",
+  //     },
+  //   ],
+  // },
 };
 
 const raleway = Raleway({
